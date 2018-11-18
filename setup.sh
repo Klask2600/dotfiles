@@ -6,4 +6,6 @@ git clone https://github.com/chrishejl/dotfiles.git
 yes | cp -rf dotfiles/. ~
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
-chsh -s $(which zsh)
+git clone https://github.com/pmbenjamin/purity.git
+cp purity/purity.zsh-theme ~/.oh-my-zsh/custom/themes/
+rm -rf purity
