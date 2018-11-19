@@ -256,7 +256,7 @@ interval = 3.0
 
 format-connected-underline = ${colors.4}
 format-connected-foreground-foreground = ${colors.foreground-alt}
-label-connected = " %downspeed%  %upspeed%  "
+label-connected = "  %downspeed%  %upspeed% "
 
 format-disconnected-underline = ${self.format-connected-underline}
 label-disconnected = %ifname% disconnected
